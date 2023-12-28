@@ -1,0 +1,8 @@
+public static void main(String[] args) {
+        float a = 10.09f;
+        float b = 9.67f;
+        float c = 10;
+        if (Math.abs(a-c)<Math.abs(b-c)) System.out.println("a is closer to 10 then b");
+        else System.out.println("b is closer to 10 then a");
+        
+    }

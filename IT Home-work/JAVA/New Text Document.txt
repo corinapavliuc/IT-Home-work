@@ -1,0 +1,22 @@
+    import java.util.Arrays;
+     import java.util.Random;
+
+    public class Main {
+        public static void main(String[] args) {
+      int[] numbers =new int[8];
+      Random random=new Random();
+      for (int i =0; i<numbers.length;i++) {
+          numbers[i] = random.nextInt(1, 50);
+      }
+            System.out.print(Arrays.toString(numbers));
+            System.out.println();
+      for (int i=1;i<numbers.length;i=i+2) {
+          numbers[i] = 0;
+      }
+            System.out.print(Arrays.toString(numbers));
+        }
+    }
+
+Rezultat
+[1, 16, 24, 4, 34, 48, 34, 10]
+[1, 0, 24, 0, 34, 0, 34, 0]

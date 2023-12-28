@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+        comparison(8.23f,11.05f,9.5f);
+        comparison(10.2f,12.8f,20f);
+
+    }
+    public static void comparison(float a,float b,float c){
+        if (Math.abs(a-c)<Math.abs(b-c)) System.out.println("a is closer to "+ c+" then b");
+        else if (Math.abs(a-c)>Math.abs(b-c)) System.out.println("b is closer to "+ c+"then a");
+        else System.out.println("they're even");
+    }

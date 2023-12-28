@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int [] array = {30,70,50,10,20,80,90,40};
+        int number = 90;
+        findNumbers(array,number);
+    }
+    public static void findNumbers(int[] array, int num){
+        for (int i =0;i<array.length-1;i++){
+            for (int j =i+1;j<array.length;j++){
+                if (array[i]+array[j]==num) System.out.println(array[i]+" "+array[j]);
+            }
+        }
+    }
+
+
+
+rezultat
+70 20
+50 40
+10 80
+
+Process finished with exit code 0

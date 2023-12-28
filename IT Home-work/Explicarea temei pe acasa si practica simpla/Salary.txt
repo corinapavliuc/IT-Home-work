@@ -1,0 +1,15 @@
+public class Salary {
+    private int baseSalary;
+    private int extraHours;
+    private int hourlyRate;
+
+    public Salary(int a,int b,int c){
+        baseSalary = a;
+        extraHours = b;
+        hourlyRate = c;
+    }
+
+    public int completeSalary(){
+        return baseSalary+extraHours*hourlyRate;
+    }
+}

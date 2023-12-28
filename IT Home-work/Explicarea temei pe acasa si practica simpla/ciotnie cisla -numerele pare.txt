@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i < 11; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+Afisarea numerilor pare rezultat
+0
+2
+4
+6
+8
+10

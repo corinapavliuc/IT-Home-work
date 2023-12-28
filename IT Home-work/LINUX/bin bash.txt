@@ -1,0 +1,12 @@
+  
+localhost:~# history
+   0 nano fullscript.sh
+   1 bash fullscript.sh
+   2 nano fullscript.sh
+   3 ls -l
+   4 chmod 744 fullscript.sh
+   5 ls -l
+   6 ./fullscript.sh
+   7 cat /tmp/test/mydate.txt
+   8 cat /opt/mydate/newmydate.txt
+   9 history
